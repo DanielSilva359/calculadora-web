@@ -1,0 +1,59 @@
+.principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.btn-igual{
+    height: 134px;
+}
+
+.btn-zero{
+    width: 130px;
+}
+
+.btn-green{
+    background-color: green;
+    color: #fff;
+    box-shadow: 0 5px 0 #006000;
+}
+
+.btn-green:hover{
+    background-color: #006000;
+    color: #fff;
+    box-shadow: 0 5px 0 #003f00;
+}
+
+.btn-green:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.inputClase{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 5px;
+    width: 260px;
+    height: 50px;
+    border: 2px solid black;
+}
